@@ -461,7 +461,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
         }, {
             key: '_toggleMenu',
             value: function _toggleMenu() {
+
                 this.menuOpen = !this.menuOpen;
+                if (this.menuOpen) console.log('Menu open');else console.log('Menu close');
             }
         }, {
             key: '_addSlotListeners',

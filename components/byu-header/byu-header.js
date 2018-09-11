@@ -76,7 +76,11 @@ class BYUHeader extends HTMLElement {
     }
 
     _toggleMenu() {
+
         this.menuOpen = !this.menuOpen;
+        if (this.menuOpen) console.log('Menu open')
+        else console.log('Menu close')
+
     }
 
     _addSlotListeners() {
