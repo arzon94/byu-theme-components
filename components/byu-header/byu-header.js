@@ -67,7 +67,9 @@ class BYUHeader extends HTMLElement {
     }
 
     _addButtonListeners() {
+        console.log('adding listeners')
         if (!this.inMobileView) {
+            console.log('not mobile')
             this.menuOpen = false;
             return;
         }

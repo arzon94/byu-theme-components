@@ -449,7 +449,9 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
             value: function _addButtonListeners() {
                 var _this6 = this;
 
+                console.log('adding listeners');
                 if (!this.inMobileView) {
+                    console.log('not mobile');
                     this.menuOpen = false;
                     return;
                 }
