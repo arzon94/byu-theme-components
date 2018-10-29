@@ -30,6 +30,10 @@
   @include defaultContentLink();
 }
 
+.content ::slotted(a + p), .content ::slotted(a + div) {
+  @include contentNonLink();
+}
+
 .content ::slotted(a:hover) {
   @include defaultContentLinkHover();
 }

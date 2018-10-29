@@ -65,3 +65,7 @@
 @mixin defaultContentLinkHover() {
     color: $navy !important;
 }
+
+@mixin contentNonLink() {
+    margin-bottom: 19px;
+}
