@@ -30,7 +30,7 @@
   @include defaultContentLink();
 }
 
-.content ::slotted(a + p), .content ::slotted(a + div) {
+:host a + p, :host a + div {
   @include contentNonLink();
 }
 
